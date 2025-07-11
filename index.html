@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechNova - Kompyuter Olamining Markazi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">TechNova</h1>
+      <nav class="main-nav">
+        <a href="#">Bosh sahifa</a>
+        <a href="#models">Modellar</a>
+        <a href="#blog">Yangiliklar</a>
+        <a href="#contact">Aloqa</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" data-aos="fade-up">
+    <div class="container hero-content">
+      <h2>Kelajak Kompyuterlari Shu Yerda</h2>
+      <p>Eng zamonaviy, kuchli va innovatsion qurilmalar — barchasi bir joyda</p>
+      <a href="#models" class="btn">Modellarni Ko‘rish</a>
+    </div>
+  </section>
+  <!-- MODELLAR BO‘LIMI -->
+<section class="models" id="models">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Eng So‘ngi Kompyuter Modellari</h2>
+    <div class="model-grid">
+      <div class="model-card" data-aos="zoom-in" data-aos-delay="100">
+        <img src="img/photo-1517336714731-489689fd1ca8.jpg" alt="Laptop">
+        <h3>Noutbuk Pro 2025</h3>
+        <p>Intel i7, 16GB RAM, 1TB SSD — har qanday ishga tayyor.</p>
+        <a href="#" class="btn">Batafsil</a>
+      </div>
+      <div class="model-card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="img/complete-guide-on-full-rgb-setup-4293-1648651648574.jpg" alt="Gaming PC">
+        <h3>Gaming Beast RTX</h3>
+        <p>RTX 4080 bilan qurollangan, o‘yinlar uchun ideal.</p>
+        <a href="#" class="btn">Batafsil</a>
+      </div>
+      <div class="model-card" data-aos="zoom-in" data-aos-delay="300">
+        <img src="img/maxresdefault.jpg" alt="Workstation">
+        <h3>Design Station X</h3>
+        <p>3D, dizayn, render ishlari uchun kuchli ish stansiyasi.</p>
+        <a href="#" class="btn">Batafsil</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SOLISHTIRISH PANELI -->
+<section class="compare-section" id="compare">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Kompyuterlarni Solishtiring</h2>
+    <div class="compare-table" data-aos="fade-up" data-aos-delay="100">
+      <table>
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Protsessor</th>
+            <th>RAM</th>
+            <th>SSD</th>
+            <th>Narx</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Noutbuk Pro 2025</td>
+            <td>Intel i7</td>
+            <td>16GB</td>
+            <td>1TB</td>
+            <td>$1100</td>
+          </tr>
+          <tr>
+            <td>Gaming Beast RTX</td>
+            <td>AMD Ryzen 9</td>
+            <td>32GB</td>
+            <td>2TB</td>
+            <td>$2500</td>
+          </tr>
+          <tr>
+            <td>Design Station X</td>
+            <td>Intel Xeon</td>
+            <td>64GB</td>
+            <td>4TB</td>
+            <td>$3800</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG BO‘LIMI -->
+<section class="blog-section" id="blog">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">So‘nggi Yangiliklar</h2>
+    <div class="blog-grid">
+      <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+        <h3>AI yordamida kompyuterlar tezroq bo‘lishi mumkinmi?</h3>
+        <p>Sun'iy intellekt kompyuter arxitekturasini qanday o‘zgartiryapti?</p>
+        <a href="#">Batafsil o‘qish →</a>
+      </div>
+      <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+        <h3>2025-yil uchun eng yaxshi gaming PC'lar</h3>
+        <p>RTX 5090 grafik kartasi bilan jihozlangan 5 ta kuchli model.</p>
+        <a href="#">Batafsil o‘qish →</a>
+      </div>
+      <div class="blog-card" data-aos="fade-up" data-aos-delay="300">
+        <h3>Mini kompyuterlar: ixchamlik + quvvat</h3>
+        <p>Portativ ish stansiyalarining afzalliklari va imkoniyatlari.</p>
+        <a href="#">Batafsil o‘qish →</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- MAHSULOT DO‘KONI BO‘LIMI -->
+<section class="shop-section" id="shop">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Bizning Mahsulotlar</h2>
+
+    <!-- Qidiruv -->
+    <div class="search-bar" data-aos="fade-up" data-aos-delay="100">
+      <input type="text" id="searchInput" placeholder="Mahsulot nomi bo‘yicha qidiruv..." />
+    </div>
+
+    <!-- Mahsulotlar -->
+    <div class="product-grid" id="productGrid">
+      <div class="product-card" data-name="Asus Gaming Laptop">
+        <img src="img/0e75fd39-a714-4700-989a-4cf9b5748400.png" alt="Asus Laptop" />
+        <h3>Asus Gaming Laptop</h3>
+        <p>$1200</p>
+        <a href="#" class="btn">Sotib olish</a>
+      </div>
+      <div class="product-card" data-name="HP Workstation">
+        <img src="img/images (1).jpg" alt="HP Workstation" />
+        <h3>HP Workstation</h3>
+        <p>$2100</p>
+        <a href="#" class="btn">Sotib olish</a>
+      </div>
+      <div class="product-card" data-name="RGB Gaming PC">
+        <img src="img/c08012d0-a2b3-44c2-bf67-173a15842634.jpeg" alt="Gaming PC" />
+        <h3>RGB Gaming PC</h3>
+        <p>$1850</p>
+        <a href="#" class="btn">Sotib olish</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CHECKOUT SECTION -->
+<section class="checkout-section" id="checkout">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Buyurtma Berish</h2>
+    <form class="checkout-form" data-aos="fade-up" data-aos-delay="100">
+      <div class="form-group">
+        <label for="fullname">Ism va familiya</label>
+        <input type="text" id="fullname" placeholder="Ismingizni kiriting" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Elektron pochta</label>
+        <input type="email" id="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Yetkazib berish manzili</label>
+        <input type="text" id="address" placeholder="Manzilingiz" required>
+      </div>
+      <div class="form-group">
+        <label for="product">Tanlangan mahsulot</label>
+        <select id="product">
+          <option>Noutbuk Pro 2025</option>
+          <option>Noutbuk Pro 2025 Max</option>
+          <option>Noutbuk Pro Lite</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="quantity">Soni</label>
+        <input type="number" id="quantity" min="1" value="1" required>
+      </div>
+      <button type="submit" class="btn">Buyurtma berish</button>
+    </form>
+  </div>
+</section>
+<!-- TESTIMONIALS SECTION -->
+<section class="testimonial-section" id="testimonials">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Mijozlarimiz Nima Deydi?</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+        <p>“Noutbuk Pro 2025 men kutganimdan ham kuchli chiqdi. Grafika ishlari va o‘yinlar uchun ideal!”</p>
+        <h4>Javohir R.</h4>
+        <span>Dizayner</span>
+      </div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+        <p>“Men bu saytdan doimiy xarid qilaman. Tez yetkaziladi, sifati a’lo darajada. Juda mamnunman!”</p>
+        <h4>Laylo M.</h4>
+        <span>Dasturchi</span>
+      </div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+        <p>“Maxsus Pro Max modelini sotib oldim. Bunday sifatli kompyuterga faqat bu yerdan topdim.”</p>
+        <h4>Azamat A.</h4>
+        <span>IT Blogger</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CONTACT SECTION -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Biz bilan bog‘laning</h2>
+    <form class="contact-form" data-aos="fade-up" data-aos-delay="100">
+      <div class="form-group">
+        <label for="name">Ismingiz</label>
+        <input type="text" id="name" placeholder="Ismingiz" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email manzilingiz</label>
+        <input type="email" id="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Xabaringiz</label>
+        <textarea id="message" placeholder="Xabar yozing..." rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn">Yuborish</button>
+    </form>
+  </div>
+</section>
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h3>TechNova</h3>
+        <p>Dunyodagi eng kuchli va zamonaviy noutbuklar faqat bizda.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Sahifalar</h4>
+        <ul>
+          <li><a href="#home">Bosh sahifa</a></li>
+          <li><a href="#products">Mahsulotlar</a></li>
+          <li><a href="#testimonials">Fikrlar</a></li>
+          <li><a href="#contact">Aloqa</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Bizni kuzating</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 TechNova. Barcha huquqlar himoyalangan.</p>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
